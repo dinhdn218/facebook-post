@@ -13,7 +13,7 @@ function Comment({
         <img
           alt="avatar"
           className="post-item-comment-img"
-          src="https://scontent.fhan14-1.fna.fbcdn.net/v/t1.30497-1/cp0/p60x60/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-5&_nc_sid=7206a8&_nc_ohc=6avYFF4W-uEAX9oN5dX&_nc_ht=scontent.fhan14-1.fna&oh=00_AT_B_q3leFHC7Uu00MPWiB_mBGy5_JyCu_Nr2cVyCwAUhQ&oe=61F701A5"
+          src="https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?s=612x612"
         ></img>
       </div>
       <div className="post-comment-item-content">
@@ -23,9 +23,9 @@ function Comment({
       <div
         onClick={(e) => {
           const listOption = e.target.querySelector(
-            ".post-comment-item-option-list"
+            '.post-comment-item-option-list'
           );
-          if (listOption) listOption.classList.toggle("is-show");
+          if (listOption) listOption.classList.toggle('is-show');
         }}
         className="post-comment-item-option"
       >
@@ -37,7 +37,7 @@ function Comment({
         <div className="post-comment-item-option-list">
           <p
             onClick={(e) => {
-              e.target.parentNode.classList.remove("is-show");
+              e.target.parentNode.classList.remove('is-show');
               onShowEditCommentForm(postIndex, commentIndex);
             }}
             className="post-comment-item-option-item"
@@ -46,7 +46,7 @@ function Comment({
           </p>
           <p
             onClick={(e) => {
-              e.target.parentNode.classList.remove("is-show");
+              e.target.parentNode.classList.remove('is-show');
               onDeleteComment(postIndex, commentIndex);
             }}
             className="post-comment-item-option-item"

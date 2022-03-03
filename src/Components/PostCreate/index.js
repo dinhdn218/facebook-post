@@ -1,4 +1,4 @@
-import "./PostCreate.css";
+import './PostCreate.css';
 
 function PostCreate({ onShowForm }) {
   return (
@@ -9,7 +9,7 @@ function PostCreate({ onShowForm }) {
             <img
               alt="avatar"
               className="post-body-img"
-              src="https://scontent.fhan14-1.fna.fbcdn.net/v/t1.30497-1/cp0/p60x60/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-5&_nc_sid=7206a8&_nc_ohc=6avYFF4W-uEAX9oN5dX&_nc_ht=scontent.fhan14-1.fna&oh=00_AT_B_q3leFHC7Uu00MPWiB_mBGy5_JyCu_Nr2cVyCwAUhQ&oe=61F701A5"
+              src="https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?s=612x612"
             ></img>
           </div>
           <p onClick={onShowForm} className="post-body-btn">
